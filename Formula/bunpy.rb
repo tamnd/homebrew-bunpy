@@ -1,28 +1,28 @@
 class Bunpy < Formula
   desc "One binary for Python: runtime, packages, bundler, tests"
   homepage "https://github.com/tamnd/bunpy"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/tamnd/bunpy/releases/download/v#{version}/bunpy-v#{version}-darwin-arm64.tar.gz"
-      sha256 "23b78b30db74dd00d2f15bf4dbd04de9332b28b0801d86bb8ad5310cc8b1be77"
+      sha256 "1f1a4edce251163646662bc07da166acd88ee3e7d6a5786e015db408b7a91c01"
     end
     on_intel do
       url "https://github.com/tamnd/bunpy/releases/download/v#{version}/bunpy-v#{version}-darwin-amd64.tar.gz"
-      sha256 "29a5a1075e41e80ad824b17037ce35126efaec9dc7130b6d60750ebb8ea6b37b"
+      sha256 "069f4ea0e2780869466d94bb93845315cc77c5519a4f2676051d438bb02858dc"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/tamnd/bunpy/releases/download/v#{version}/bunpy-v#{version}-linux-arm64.tar.gz"
-      sha256 "fd105b6fd23de1abb8fa26b76b1241fd8767c1c3d0c2519097f6bf812446fff7"
+      sha256 "f97c31c4caeccfe89ff8b61721528dce20c69465bd66ee0d40c968a64eeced0c"
     end
     on_intel do
       url "https://github.com/tamnd/bunpy/releases/download/v#{version}/bunpy-v#{version}-linux-amd64.tar.gz"
-      sha256 "683f148ebef514045ca986daa26be33221931db30807eac2495e4a456e2d6119"
+      sha256 "13d58d7355283529517fa2c261dbc73ca0ce1ce6f6988777234a933cf3ba9da0"
     end
   end
 
