@@ -7,22 +7,22 @@ class Bunpy < Formula
   on_macos do
     on_arm do
       url "https://github.com/tamnd/bunpy/releases/download/v#{version}/bunpy-v#{version}-darwin-arm64.tar.gz"
-      sha256 "465491e224c7cf25d01349f96f80075e10157a15b2ff1b3d372778a81f9d8888"
+      sha256 "07d9a297ec5cdf9445108b93f764faf61c0424c4d446bf3c83a726b2c3baf1d8"
     end
     on_intel do
       url "https://github.com/tamnd/bunpy/releases/download/v#{version}/bunpy-v#{version}-darwin-amd64.tar.gz"
-      sha256 "6cded806e5f68ffe80fe30e7e53433fba8cb0310e3bcdc68c1f917eed6384acd"
+      sha256 "9b4f61c4d7d67ee3ab77570bb7d057154997e9991450e964586e6ba907682cbf"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/tamnd/bunpy/releases/download/v#{version}/bunpy-v#{version}-linux-arm64.tar.gz"
-      sha256 "717b2b1526042f4eefabde7af21ed519258f98bfa86144eae1755d439514ddf1"
+      sha256 "3a0d0ae44de9677cfdcd772779a31a307c567b041a372221fa97a74a87a48815"
     end
     on_intel do
       url "https://github.com/tamnd/bunpy/releases/download/v#{version}/bunpy-v#{version}-linux-amd64.tar.gz"
-      sha256 "efe08a666883a44ea061dd3ab529cf5a4b03c4c915218326fc08df1d565bc725"
+      sha256 "6a00f001de53db22399fda64ce8254a1f1aefc763b70d8e488769d87fb9577ad"
     end
   end
 
